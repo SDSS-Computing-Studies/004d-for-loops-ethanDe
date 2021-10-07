@@ -22,3 +22,9 @@ enter a number:4
 ****
 
 """
+x = int(input("Enter a number: "))
+for line in range(x):
+    seq = "*"
+    x = int(x)
+    new = x*seq 
+    print(new)
